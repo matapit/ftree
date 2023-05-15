@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.famille.controller.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_evenements"
+        android:name="com.example.famille.controller.ui.evenements.EvenementsFragment"
+        android:label="evenements"
+        tools:layout="@layout/fragment_evenements" />
+    <fragment
+        android:id="@+id/nav_ascendant"
+        android:name="com.example.famille.controller.ui.ascendants.AscendantsFragment"
+        android:label="ascendant"
+        tools:layout="@layout/ascendants_fragment" />
+    <fragment
+        android:id="@+id/nav_maries"
+        android:name="com.example.famille.controller.ui.maries.MariesFragment"
+        android:label="mariés"
+        tools:layout="@layout/maries_fragment" />
+    <fragment
+        android:id="@+id/nav_celibataires"
+        android:name="com.example.famille.controller.ui.celibataires.CelibatairesFragment"
+        android:label="celibataires"
+        tools:layout="@layout/celibataires_fragment" />
+    <fragment
+        android:id="@+id/nav_travailleurs"
+        android:name="com.example.famille.controller.ui.travaileurs.TravailleurFragment"
+        android:label="travailleurs"
+        tools:layout="@layout/travailleur_fragment" />
+    <fragment
+        android:id="@+id/nav_etudiants"
+        android:name="com.example.famille.controller.ui.etudiants.EtudiantFragment"
+        android:label="etudiants"
+        tools:layout="@layout/etudiant_fragment" />
+    <fragment
+        android:id="@+id/nav_eleves"
+        android:name="com.example.famille.controller.ui.eleves.ElevesFragment"
+        android:label="eleves"
+        tools:layout="@layout/etudiant_fragment" />
+    <fragment
+        android:id="@+id/nav_chaumeurs"
+        android:name="com.example.famille.controller.ui.chaumeurs.ChaumeursFragment"
+        android:label="chaumeurs"
+        tools:layout="@layout/chaumeurs_fragment" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.famille.controller.ui.logout.LogoutFragment"
+        android:label="chaumeurs"/>
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.famille.controller.ui.gallery.GalleryFragment"
+        android:label="generations"/>
+</navigation>

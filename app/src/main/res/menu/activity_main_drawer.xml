@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="accueil" />
+        <item
+            android:id="@+id/nav_evenements"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="evenements" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="generations" />
+        <item
+            android:id="@+id/nav_ascendant"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Ascendants" />
+        <item
+            android:id="@+id/nav_maries"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="mariés" />
+        <item
+            android:id="@+id/nav_celibataires"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="celibataires" />
+        <item
+            android:id="@+id/nav_travailleurs"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="travailleurs" />
+        <item
+            android:id="@+id/nav_etudiants"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="etudiants" />
+        <item
+            android:id="@+id/nav_eleves"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="eleves" />
+        <item
+            android:id="@+id/nav_chaumeurs"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="chaumeurs" />
+        <item
+            android:id="@+id/nav_decedés"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="décédés" />
+
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="gerer son compte" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="se deconnecter" />
+        </menu>
+    </item>
+
+
+</menu>
